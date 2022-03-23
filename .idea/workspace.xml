@@ -5,22 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60f715be-0202-43d4-ab0d-5fe481dab640" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/MultiFactorAuthenticationDemo/auth-service/auth-service.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MultiFactorAuthenticationDemo/business-service/business-service.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAppointment/appointment-parent-pom.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAppointment/appointment-service/appointment-service.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAppointment/auth-server/auth-server.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAppointment/card-service/card-service.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAppointment/config-server/config-server.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAppointment/doctor-service/doctor-service.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAppointment/eureka-server/eureka-server.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringAppointment/zuul-server/zuul-server.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringSecurityBasicDemo/basic.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringSsoDemo/sso-app1/sso-app1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringSsoDemo/sso-app2/sso-app2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringSsoDemo/sso-auth-server/sso-auth-server.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringSsoDemo/sso.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,7 +182,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1648026114404</updated>
-      <workItem from="1648026115692" duration="501000" />
+      <workItem from="1648026115692" duration="531000" />
     </task>
     <servers />
   </component>

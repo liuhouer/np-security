@@ -1,11 +1,280 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="permission:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60f715be-0202-43d4-ab0d-5fe481dab640" name="默认的" comment="">
+    <list default="true" id="b1fdef48-1395-4544-8c66-06320246b2ac" name="默认的" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiFactorAuthenticationDemo/auth-service/auth-service.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiFactorAuthenticationDemo/auth-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiFactorAuthenticationDemo/auth-service/src/main/java/com/lagou/springsecurity/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiFactorAuthenticationDemo/auth-service/src/main/java/com/lagou/springsecurity/config/ProjectConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiFactorAuthenticationDemo/auth-service/src/main/java/com/lagou/springsecurity/controller/AuthController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiFactorAuthenticationDemo/auth-service/src/main/java/com/lagou/springsecurity/domain/AuthCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiFactorAuthenticationDemo/auth-service/src/main/java/com/lagou/springsecurity/domain/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiFactorAuthenticationDemo/auth-service/src/main/java/com/lagou/springsecurity/repository/AutoCodeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiFactorAuthenticationDemo/auth-service/src/main/java/com/lagou/springsecurity/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiFactorAuthenticationDemo/auth-service/src/main/java/com/lagou/springsecurity/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiFactorAuthenticationDemo/auth-service/src/main/java/com/lagou/springsecurity/util/GenerateCodeUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiFactorAuthenticationDemo/auth-service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiFactorAuthenticationDemo/auth-service/src/main/resources/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiFactorAuthenticationDemo/business-service/business-service.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiFactorAuthenticationDemo/business-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiFactorAuthenticationDemo/business-service/src/main/java/com/lagou/springsecurity/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiFactorAuthenticationDemo/business-service/src/main/java/com/lagou/springsecurity/authentication/AuthCodeAuthentication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiFactorAuthenticationDemo/business-service/src/main/java/com/lagou/springsecurity/authentication/UsernamePasswordAuthentication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiFactorAuthenticationDemo/business-service/src/main/java/com/lagou/springsecurity/authentication/facade/AuthenticationServerFacade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiFactorAuthenticationDemo/business-service/src/main/java/com/lagou/springsecurity/authentication/filter/CustomAuthenticationFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiFactorAuthenticationDemo/business-service/src/main/java/com/lagou/springsecurity/authentication/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiFactorAuthenticationDemo/business-service/src/main/java/com/lagou/springsecurity/authentication/provider/AuthCodeAuthenticationProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiFactorAuthenticationDemo/business-service/src/main/java/com/lagou/springsecurity/authentication/provider/UsernamePasswordAuthenticationProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiFactorAuthenticationDemo/business-service/src/main/java/com/lagou/springsecurity/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiFactorAuthenticationDemo/business-service/src/main/java/com/lagou/springsecurity/controller/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiFactorAuthenticationDemo/business-service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/appointment-parent-pom.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/appointment-service/appointment-service.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/appointment-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/appointment-service/src/main/java/com/appointment/appointment/AppointmentApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/appointment-service/src/main/java/com/appointment/appointment/client/CardMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/appointment-service/src/main/java/com/appointment/appointment/client/CardRestTemplateClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/appointment-service/src/main/java/com/appointment/appointment/client/DoctorMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/appointment-service/src/main/java/com/appointment/appointment/client/DoctorRestTemplateClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/appointment-service/src/main/java/com/appointment/appointment/client/GetDoctorCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/appointment-service/src/main/java/com/appointment/appointment/config/AppointmentConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/appointment-service/src/main/java/com/appointment/appointment/config/AppointmentConfig2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/appointment-service/src/main/java/com/appointment/appointment/controller/AppointmentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/appointment-service/src/main/java/com/appointment/appointment/domain/Appointment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/appointment-service/src/main/java/com/appointment/appointment/filter/AuthorizationHeader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/appointment-service/src/main/java/com/appointment/appointment/filter/AuthorizationHeaderFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/appointment-service/src/main/java/com/appointment/appointment/filter/AuthorizationHeaderHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/appointment-service/src/main/java/com/appointment/appointment/filter/AuthorizationHeaderInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/appointment-service/src/main/java/com/appointment/appointment/repository/AppointmentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/appointment-service/src/main/java/com/appointment/appointment/security/JWTTokenStoreConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/appointment-service/src/main/java/com/appointment/appointment/security/ResourceServerConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/appointment-service/src/main/java/com/appointment/appointment/service/AppointmentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/appointment-service/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/appointment-service/src/main/resources/appointment.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/appointment-service/src/main/resources/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/auth-server/auth-server.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/auth-server/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/auth-server/src/main/java/com/appointment/authserver/AuthServerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/auth-server/src/main/java/com/appointment/authserver/jwt/JWTOAuth2Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/auth-server/src/main/java/com/appointment/authserver/jwt/JWTTokenEnhancer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/auth-server/src/main/java/com/appointment/authserver/jwt/JWTTokenStoreConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/auth-server/src/main/java/com/appointment/authserver/jwt/WebSecurityConfigurer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/auth-server/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/auth-server/src/main/resources/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/card-service/card-service.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/card-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/card-service/src/main/java/com/appointment/card/CardApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/card-service/src/main/java/com/appointment/card/controller/CardController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/card-service/src/main/java/com/appointment/card/domain/Card.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/card-service/src/main/java/com/appointment/card/filter/AuthorizationHeader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/card-service/src/main/java/com/appointment/card/filter/AuthorizationHeaderFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/card-service/src/main/java/com/appointment/card/filter/AuthorizationHeaderHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/card-service/src/main/java/com/appointment/card/filter/AuthorizationHeaderInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/card-service/src/main/java/com/appointment/card/repository/CardRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/card-service/src/main/java/com/appointment/card/security/JWTTokenStoreConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/card-service/src/main/java/com/appointment/card/security/ResourceServerConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/card-service/src/main/java/com/appointment/card/services/CardService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/card-service/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/card-service/src/main/resources/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/card-service/src/main/resources/card.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/config-server/config-server.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/config-server/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/config-server/src/main/java/com/appointment/configserver/ConfigServerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/config-server/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/config-server/src/main/resources/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/config-server/src/main/resources/config/appointmentservice/appointmentservice-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/config-server/src/main/resources/config/appointmentservice/appointmentservice-test.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/config-server/src/main/resources/config/appointmentservice/appointmentservice.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/config-server/src/main/resources/config/cardservice/cardservice-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/config-server/src/main/resources/config/cardservice/cardservice-test.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/config-server/src/main/resources/config/cardservice/cardservice.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/config-server/src/main/resources/config/doctorservice/doctorservice-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/config-server/src/main/resources/config/doctorservice/doctorservice-test.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/config-server/src/main/resources/config/doctorservice/doctorservice.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/doctor-service/doctor-service.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/doctor-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/doctor-service/src/main/java/com/appointment/doctor/DoctorApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/doctor-service/src/main/java/com/appointment/doctor/controller/DoctorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/doctor-service/src/main/java/com/appointment/doctor/domain/Doctor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/doctor-service/src/main/java/com/appointment/doctor/filter/AuthorizationHeader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/doctor-service/src/main/java/com/appointment/doctor/filter/AuthorizationHeaderFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/doctor-service/src/main/java/com/appointment/doctor/filter/AuthorizationHeaderHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/doctor-service/src/main/java/com/appointment/doctor/filter/AuthorizationHeaderInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/doctor-service/src/main/java/com/appointment/doctor/repository/DoctorRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/doctor-service/src/main/java/com/appointment/doctor/security/JWTTokenStoreConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/doctor-service/src/main/java/com/appointment/doctor/security/ResourceServerConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/doctor-service/src/main/java/com/appointment/doctor/services/DoctorService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/doctor-service/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/doctor-service/src/main/resources/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/doctor-service/src/main/resources/doctor.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/eureka-server/eureka-server.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/eureka-server/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/eureka-server/src/main/java/com/appointment/eurekaserver/EurekaServerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/eureka-server/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/zuul-server/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/zuul-server/src/main/java/com/appointment/zuulserver/ZuulServerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/zuul-server/src/main/java/com/appointment/zuulserver/filter/JWTFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/zuul-server/src/main/java/com/appointment/zuulserver/filter/RequestLogFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/zuul-server/src/main/java/com/appointment/zuulserver/filter/ResponseServiceNameFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/zuul-server/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/zuul-server/src/main/resources/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringAppointment/zuul-server/zuul-server.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSecurityBasicDemo/basic.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSecurityBasicDemo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSecurityBasicDemo/src/main/java/com/lagou/springsecurity/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSecurityBasicDemo/src/main/java/com/lagou/springsecurity/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSecurityBasicDemo/src/main/java/com/lagou/springsecurity/controller/MainController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSecurityBasicDemo/src/main/java/com/lagou/springsecurity/domain/Authority.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSecurityBasicDemo/src/main/java/com/lagou/springsecurity/domain/HealthRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSecurityBasicDemo/src/main/java/com/lagou/springsecurity/domain/PasswordEncoderType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSecurityBasicDemo/src/main/java/com/lagou/springsecurity/domain/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSecurityBasicDemo/src/main/java/com/lagou/springsecurity/repository/HealthRecordRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSecurityBasicDemo/src/main/java/com/lagou/springsecurity/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSecurityBasicDemo/src/main/java/com/lagou/springsecurity/service/AuthenticationProviderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSecurityBasicDemo/src/main/java/com/lagou/springsecurity/service/CustomUserDetailsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSecurityBasicDemo/src/main/java/com/lagou/springsecurity/service/HealthRecordService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSecurityBasicDemo/src/main/java/com/lagou/springsecurity/user/model/CustomUserDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSecurityBasicDemo/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSecurityBasicDemo/src/main/resources/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSecurityBasicDemo/src/main/resources/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSecurityBasicDemo/src/main/resources/templates/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app1/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app1/src/main/java/com/lagou/springsecurity/sso/app1/SsoApp1Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app1/src/main/java/com/lagou/springsecurity/sso/app1/config/WebSecurityConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app1/src/main/java/com/lagou/springsecurity/sso/app1/controller/SystemController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app1/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app1/src/main/resources/static/assets/bootstrap/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app1/src/main/resources/static/assets/bootstrap/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app1/src/main/resources/static/assets/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app1/src/main/resources/static/assets/bootstrap/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app1/src/main/resources/static/assets/bootstrap/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app1/src/main/resources/static/assets/bootstrap/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app1/src/main/resources/static/assets/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app1/src/main/resources/static/assets/bootstrap/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app1/src/main/resources/static/assets/bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app1/src/main/resources/static/assets/bootstrap/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app1/src/main/resources/static/assets/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app1/src/main/resources/static/assets/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app1/src/main/resources/static/assets/bootstrap/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app1/src/main/resources/static/assets/bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app1/src/main/resources/static/assets/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app1/src/main/resources/static/assets/bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app1/src/main/resources/static/assets/bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app1/src/main/resources/static/assets/bootstrap/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app1/src/main/resources/static/assets/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app1/src/main/resources/static/assets/bootstrap/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app1/src/main/resources/static/assets/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app1/src/main/resources/static/assets/css/normalize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app1/src/main/resources/static/assets/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app1/src/main/resources/static/assets/css/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app1/src/main/resources/static/assets/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app1/src/main/resources/static/assets/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app1/src/main/resources/static/assets/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app1/src/main/resources/static/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app1/src/main/resources/static/assets/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app1/src/main/resources/static/assets/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app1/src/main/resources/static/assets/fonts/icomoon/icomoon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app1/src/main/resources/static/assets/fonts/icomoon/icomoon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app1/src/main/resources/static/assets/fonts/icomoon/icomoon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app1/src/main/resources/static/assets/fonts/icomoon/icomoon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app1/src/main/resources/templates/system/profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app1/sso-app1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app2/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app2/src/main/java/com/lagou/springsecurity/sso/app2/SsoApp2Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app2/src/main/java/com/lagou/springsecurity/sso/app2/config/WebSecurityConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app2/src/main/java/com/lagou/springsecurity/sso/app2/controller/SystemController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app2/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app2/src/main/resources/static/assets/bootstrap/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app2/src/main/resources/static/assets/bootstrap/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app2/src/main/resources/static/assets/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app2/src/main/resources/static/assets/bootstrap/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app2/src/main/resources/static/assets/bootstrap/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app2/src/main/resources/static/assets/bootstrap/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app2/src/main/resources/static/assets/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app2/src/main/resources/static/assets/bootstrap/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app2/src/main/resources/static/assets/bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app2/src/main/resources/static/assets/bootstrap/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app2/src/main/resources/static/assets/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app2/src/main/resources/static/assets/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app2/src/main/resources/static/assets/bootstrap/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app2/src/main/resources/static/assets/bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app2/src/main/resources/static/assets/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app2/src/main/resources/static/assets/bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app2/src/main/resources/static/assets/bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app2/src/main/resources/static/assets/bootstrap/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app2/src/main/resources/static/assets/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app2/src/main/resources/static/assets/bootstrap/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app2/src/main/resources/static/assets/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app2/src/main/resources/static/assets/css/normalize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app2/src/main/resources/static/assets/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app2/src/main/resources/static/assets/css/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app2/src/main/resources/static/assets/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app2/src/main/resources/static/assets/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app2/src/main/resources/static/assets/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app2/src/main/resources/static/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app2/src/main/resources/static/assets/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app2/src/main/resources/static/assets/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app2/src/main/resources/static/assets/fonts/icomoon/icomoon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app2/src/main/resources/static/assets/fonts/icomoon/icomoon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app2/src/main/resources/static/assets/fonts/icomoon/icomoon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app2/src/main/resources/static/assets/fonts/icomoon/icomoon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app2/src/main/resources/templates/system/profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-app2/sso-app2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-auth-server/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-auth-server/src/main/java/com/lagou/springsecurity/sso/authserver/SsoAuthServerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-auth-server/src/main/java/com/lagou/springsecurity/sso/authserver/confg/AuthorizationServerConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-auth-server/src/main/java/com/lagou/springsecurity/sso/authserver/confg/WebSecurityConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-auth-server/src/main/java/com/lagou/springsecurity/sso/authserver/controller/IndexController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-auth-server/src/main/java/com/lagou/springsecurity/sso/authserver/controller/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-auth-server/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-auth-server/src/main/resources/static/assets/bootstrap/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-auth-server/src/main/resources/static/assets/bootstrap/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-auth-server/src/main/resources/static/assets/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-auth-server/src/main/resources/static/assets/bootstrap/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-auth-server/src/main/resources/static/assets/bootstrap/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-auth-server/src/main/resources/static/assets/bootstrap/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-auth-server/src/main/resources/static/assets/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-auth-server/src/main/resources/static/assets/bootstrap/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-auth-server/src/main/resources/static/assets/bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-auth-server/src/main/resources/static/assets/bootstrap/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-auth-server/src/main/resources/static/assets/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-auth-server/src/main/resources/static/assets/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-auth-server/src/main/resources/static/assets/bootstrap/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-auth-server/src/main/resources/static/assets/bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-auth-server/src/main/resources/static/assets/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-auth-server/src/main/resources/static/assets/bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-auth-server/src/main/resources/static/assets/bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-auth-server/src/main/resources/static/assets/bootstrap/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-auth-server/src/main/resources/static/assets/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-auth-server/src/main/resources/static/assets/bootstrap/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-auth-server/src/main/resources/static/assets/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-auth-server/src/main/resources/static/assets/css/normalize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-auth-server/src/main/resources/static/assets/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-auth-server/src/main/resources/static/assets/css/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-auth-server/src/main/resources/static/assets/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-auth-server/src/main/resources/static/assets/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-auth-server/src/main/resources/static/assets/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-auth-server/src/main/resources/static/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-auth-server/src/main/resources/static/assets/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-auth-server/src/main/resources/static/assets/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-auth-server/src/main/resources/static/assets/fonts/icomoon/icomoon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-auth-server/src/main/resources/static/assets/fonts/icomoon/icomoon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-auth-server/src/main/resources/static/assets/fonts/icomoon/icomoon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-auth-server/src/main/resources/static/assets/fonts/icomoon/icomoon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso-auth-server/sso-auth-server.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSsoDemo/sso.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +287,13 @@
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
   </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -25,25 +301,31 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="26mQ7QSAh0ofqEX266kq3lOoley" />
+  <component name="ProjectId" id="26oN12k3q16JDcc3UfCndpDz8yi" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="com.zeroturnaround.javarebel.idea.plugin.settings.JRebelSettingsComponent" />
   </component>
-  <component name="RunManager" selected="Spring Boot.SsoAuthServerApplication">
+  <component name="RunManager" selected="Tomcat Server.np-security">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -75,79 +357,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppointmentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="appointment-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.appointment.appointment.AppointmentApplication" />
+    <configuration name="Demo2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mmall.demo2.Demo2Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AuthServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="auth-server" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.appointment.authserver.AuthServerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="card-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.appointment.card.CardApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="config-server" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.appointment.configserver.ConfigServerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DoctorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="doctor-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.appointment.doctor.DoctorApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="eureka-server" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.appointment.eurekaserver.EurekaServerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="auth-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lagou.springsecurity.Main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SsoApp1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="sso-app1" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lagou.springsecurity.sso.app1.SsoApp1Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SsoApp2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="sso-app2" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lagou.springsecurity.sso.app2.SsoApp2Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SsoAuthServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="sso-auth-server" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lagou.springsecurity.sso.authserver.SsoAuthServerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ZuulServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="zuul-server" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.appointment.zuulserver.ZuulServerApplication" />
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mmall.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mmall.demo.DemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -161,6 +386,142 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.9" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_demo" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="57759" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="np-security" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.9" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="permission:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_0_9_demo" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="57759" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="permission:war exploded" />
+        </option>
+      </method>
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -170,6 +531,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.Demo2Application" />
+      <item itemvalue="Spring Boot.DemoApplication" />
+      <item itemvalue="Tomcat Server.np-security" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.DemoApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -177,16 +548,98 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="60f715be-0202-43d4-ab0d-5fe481dab640" name="默认的" comment="" />
-      <created>1648026114404</created>
+      <changelist id="b1fdef48-1395-4544-8c66-06320246b2ac" name="默认的" comment="" />
+      <created>1648085760821</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1648026114404</updated>
-      <workItem from="1648026115692" duration="598000" />
+      <updated>1648085760821</updated>
+      <workItem from="1648085762172" duration="12017000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="176" y="85" width="1129" height="727" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1648090740651">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="176" y="85" width="1129" height="727" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860@0.0.1440.860" timestamp="1648090740651" />
+    <state x="455" y="72" width="893" height="717" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1648090683931">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="455" y="72" width="893" height="717" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1440.860@0.0.1440.860" timestamp="1648090683931" />
+    <state width="959" height="224" key="GridCell.Tab.0.bottom" timestamp="1648101313447">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="959" height="224" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1648101313447" />
+    <state width="959" height="224" key="GridCell.Tab.0.center" timestamp="1648101313447">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="959" height="224" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1648101313447" />
+    <state width="959" height="224" key="GridCell.Tab.0.left" timestamp="1648101313447">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="959" height="224" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1648101313447" />
+    <state width="959" height="224" key="GridCell.Tab.0.right" timestamp="1648101313447">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="959" height="224" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1648101313447" />
+    <state width="959" height="224" key="GridCell.Tab.1.bottom" timestamp="1648101313447">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="959" height="224" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1648101313447" />
+    <state width="959" height="224" key="GridCell.Tab.1.center" timestamp="1648101313447">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="959" height="224" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1648101313447" />
+    <state width="959" height="224" key="GridCell.Tab.1.left" timestamp="1648101313447">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="959" height="224" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1648101313447" />
+    <state width="959" height="224" key="GridCell.Tab.1.right" timestamp="1648101313447">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="959" height="224" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1648101313447" />
+    <state width="959" height="224" key="GridCell.Tab.2.bottom" timestamp="1648101313448">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="959" height="224" key="GridCell.Tab.2.bottom/0.0.1440.860@0.0.1440.860" timestamp="1648101313448" />
+    <state width="959" height="224" key="GridCell.Tab.2.center" timestamp="1648101313448">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="959" height="224" key="GridCell.Tab.2.center/0.0.1440.860@0.0.1440.860" timestamp="1648101313448" />
+    <state width="959" height="224" key="GridCell.Tab.2.left" timestamp="1648101313448">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="959" height="224" key="GridCell.Tab.2.left/0.0.1440.860@0.0.1440.860" timestamp="1648101313448" />
+    <state width="959" height="224" key="GridCell.Tab.2.right" timestamp="1648101313448">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="959" height="224" key="GridCell.Tab.2.right/0.0.1440.860@0.0.1440.860" timestamp="1648101313448" />
+    <state width="959" height="458" key="GridCell.Tab.3.bottom" timestamp="1648101212334">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="959" height="458" key="GridCell.Tab.3.bottom/0.0.1440.860@0.0.1440.860" timestamp="1648101212334" />
+    <state width="959" height="458" key="GridCell.Tab.3.center" timestamp="1648101212334">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="959" height="458" key="GridCell.Tab.3.center/0.0.1440.860@0.0.1440.860" timestamp="1648101212334" />
+    <state width="959" height="458" key="GridCell.Tab.3.left" timestamp="1648101212334">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="959" height="458" key="GridCell.Tab.3.left/0.0.1440.860@0.0.1440.860" timestamp="1648101212334" />
+    <state width="959" height="458" key="GridCell.Tab.3.right" timestamp="1648101212334">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="959" height="458" key="GridCell.Tab.3.right/0.0.1440.860@0.0.1440.860" timestamp="1648101212334" />
+    <state x="201" y="4" key="SettingsEditor" timestamp="1648086429137">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="201" y="4" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1648086429137" />
+    <state x="408" y="169" width="623" height="520" key="find.popup" timestamp="1648102437760">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="408" y="169" width="623" height="520" key="find.popup/0.0.1440.860@0.0.1440.860" timestamp="1648102437760" />
   </component>
 </project>

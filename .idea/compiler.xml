@@ -2,58 +2,20 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="sso-auth-server" />
-        <module name="appointment-service" />
-        <module name="auth-server" />
-        <module name="business-service" />
-        <module name="sso-app2" />
-        <module name="sso-app1" />
-        <module name="eureka-server" />
-        <module name="zuul-server" />
-        <module name="config-server" />
-        <module name="auth-service" />
-        <module name="doctor-service" />
-        <module name="card-service" />
-        <module name="basic" />
+        <module name="demo" />
+        <module name="permission" />
+        <module name="demo2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="appointment-parent-pom" target="1.8" />
-      <module name="appointment-service" target="1.8" />
-      <module name="auth-server" target="1.8" />
-      <module name="auth-service" target="8" />
-      <module name="basic" target="8" />
-      <module name="business-service" target="8" />
-      <module name="card-service" target="1.8" />
-      <module name="config-server" target="1.8" />
-      <module name="doctor-service" target="1.8" />
-      <module name="eureka-server" target="1.8" />
-      <module name="sso" target="1.8" />
-      <module name="sso-app1" target="1.8" />
-      <module name="sso-app2" target="1.8" />
-      <module name="sso-auth-server" target="1.8" />
-      <module name="zuul-server" target="1.8" />
+      <module name="demo" target="1.8" />
+      <module name="demo2" target="1.8" />
+      <module name="permission" target="8" />
     </bytecodeTargetLevel>
-  </component>
-  <component name="JavacSettings">
-    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="appointment-service" options="-parameters" />
-      <module name="auth-server" options="-parameters" />
-      <module name="auth-service" options="-parameters" />
-      <module name="basic" options="-parameters" />
-      <module name="business-service" options="-parameters" />
-      <module name="card-service" options="-parameters" />
-      <module name="config-server" options="-parameters" />
-      <module name="doctor-service" options="-parameters" />
-      <module name="eureka-server" options="-parameters" />
-      <module name="sso-app1" options="-parameters" />
-      <module name="sso-app2" options="-parameters" />
-      <module name="sso-auth-server" options="-parameters" />
-      <module name="zuul-server" options="-parameters" />
-    </option>
   </component>
 </project>
